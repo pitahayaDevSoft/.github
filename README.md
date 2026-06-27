@@ -2,15 +2,17 @@
 
 ---
 
-## What we build
+We build tools for developers who live in the terminal. No bloat, no dashboards, no Electron. Just fast, focused software that does one thing and gets out of the way.
 
-We build tools for developers who live in the terminal. We stay in produce focused software that does one thing and gets out of the way.
-
-From La Paz, Baja California Sur, México. Everything we ship is open source.
+Based in La Paz, Baja California Sur, México. Everything we ship is open source.
 
 ---
 
-We write in Rust when performance and binary size matter, Python when iteration speed matters, PowerShell when the target is Windows and pretending otherwise would be dishonest, and TypeScript when the job requires a UI layer.
+## What we build
+
+Our work splits across several areas: **developer tooling** (package managers, project navigators, shell configurators), **documentation & media browsers** (handbook renderers, video streaming TUIs), **musician tooling** (chord generators, live performance apps), and **AI-adjacent CLI tools** that treat the terminal as a first-class interface, not an afterthought.
+
+We write in Rust when performance and binary size matter, Go when building networked services and portable TUIs, Python when iteration speed matters, PowerShell when the target is Windows and pretending otherwise would be dishonest, and TypeScript when the job requires a UI layer.
 
 ---
 
@@ -25,11 +27,20 @@ A unified CLI for winget, Chocolatey, and Scoop. One command, pacman-style synta
 **[tropical-projectmanager](https://github.com/pitahayaDevSoft/tropical-projectmanager)** `Rust` `MIT`  
 Navigate and manage local projects from the terminal. Visual, keyboard-driven, zero config to start.
 
+**[gentoo-tuibook](https://github.com/pitahayaDevSoft/gentoo-tuibook)** `Go` `MIT`  
+Minimalist handbook browser and Markdown renderer for Gentoo environments, built with Bubble Tea.
+
+**[watchie](https://github.com/pitahayaDevSoft/watchie)** `Rust` `MIT`  
+Terminal-native TUI/CLI client for browsing, streaming, and downloading movies and series via TMDB and playimdb.com.
+
 **[mentask.py](https://github.com/pitahayaDevSoft/mentask.py)** `Python` `MIT`  
 CLI-first AI agent written in pure Python. Connects to [models.dev](https://models.dev) — no vendor lock-in, no SDK overhead.
 
 **[chorderizer](https://github.com/pitahayaDevSoft/chorderizer)** `Python` `MIT`  
 Generates and exports chord progressions through a terminal interface. For musicians who prefer a keyboard over a mouse.
+
+**[gigbuddy](https://github.com/pitahayaDevSoft/gigbuddy)** `TypeScript` `Apache-2.0`  
+Setlist and session manager for live performers, with real-time collaborative features for bands and crews.
 
 ---
 
